@@ -39,25 +39,17 @@ header
 
 header {
     display: flex;
-    justify-content: center;
-    align-items:first baseline;
-    padding-top: 40px;
+    justify-content: space-between;
+
 
 }
 
 .nav-primary ul {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 23px;
     list-style: none;
-    width: 355px;
-    height: 40px;
+    padding: 0;
+    margin: 0;
 
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 
 }
 
@@ -67,12 +59,10 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    margin-left: 15px;
     padding: 10px 18px;
     gap: 10px;
 
-    width: 106px;
-    height: 40px;
 
     /* colors/green/dark */
 
@@ -89,4 +79,5 @@ header {
 
 .nav-primary ul li a {
     text-transform: uppercase;
+    text-decoration: none;
 }
