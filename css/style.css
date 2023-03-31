@@ -1,0 +1,92 @@
+
+
+
+/*
+==========================================
+typography
+==========================================
+*/
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 48px;
+
+}
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 42px;
+}
+h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 34px;
+}
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 26px;
+}
+p {
+    font-family: 'Domine', serif;
+    font-size: 16px;
+}
+
+
+
+/*
+==========================================
+header
+==========================================
+*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    padding-top: 40px;
+
+}
+
+.nav-primary ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23px;
+    list-style: none;
+    width: 355px;
+    height: 40px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.nav-primary ul li {
+    padding: 23px 0px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px 18px;
+    gap: 10px;
+
+    width: 106px;
+    height: 40px;
+
+    /* colors/green/dark */
+
+    background: #265902;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-primary ul li a {
+    text-transform: uppercase;
+}
