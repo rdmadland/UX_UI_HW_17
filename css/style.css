@@ -40,7 +40,7 @@ header
 header {
     display: flex;
     justify-content: space-between;
-
+    margin: 2% 5%;
 
 }
 
@@ -54,13 +54,13 @@ header {
 }
 
 .nav-primary ul li {
-    padding: 23px 0px;
     text-decoration: none;
+    font-weight: normal;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 15px;
-    padding: 10px 18px;
+    padding: 5px 18px;
     gap: 10px;
 
 
@@ -78,6 +78,10 @@ header {
 }
 
 .nav-primary ul li a {
-    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 26 px;
+    color: white;
+    font-weight: normal;
+    font-size: 26px;;
     text-decoration: none;
 }
