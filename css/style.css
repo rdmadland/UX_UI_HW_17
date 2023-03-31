@@ -88,8 +88,47 @@ header {
     text-decoration: none;
 }
 
-.hero-content-viisual {
-    border-radius: 50%;
+
+/*
+==========================================
+hero
+==========================================
+*/
+
+.hero {
 
 
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+
+.hero-content-text {
+    max-width: 40%
+
+
+}
+
+.hero-content-visual {
+    max-width: 40%;
+    float: right;
+
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%;
+    text-align: center;
 }
