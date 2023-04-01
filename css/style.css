@@ -1,6 +1,13 @@
-:root {
-    background-color: #F1E9DE;
-}
+
+body {
+    background: #F1E9DE; /* fallback color */
+    background: linear-gradient( to bottom, #F1E9DE, #558C03);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
 
 /*
 ==========================================
@@ -149,12 +156,18 @@ hero
     max-width: 40%;
     padding-left: 20px
     width: 50%;
+    align-content: center;
+
 
 
 }
 
 img {
-    max-width: 100%;
+}
+
+.linkedin {
+    display: flex;
+    
 }
 
 .bio {
